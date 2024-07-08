@@ -8,9 +8,8 @@ public record MapStateJson(
     [Prop("captures")] string Captures,
 
     /* Used only if RegionID == 0 */
-    [Prop("time")] ulong TimeInSecs,
+    [Prop("time")] ulong TimeInSeconds,
     [Prop("day")] int Day,
     [Prop("totalPlayers")] int TotalPlayers,
     [Prop("scorchedVictoryTowns")] int ScorchedVictoryTowns
-
 );
